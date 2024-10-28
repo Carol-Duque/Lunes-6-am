@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:whitesmoke;
+    padding: 0px;
+    width: 100%;
+    top: 0;
+    min-height:200px;
+    color: black;
+}
+nav{
+    padding: 40px;
+    display: block;
+    text-align: center;
+}
+.nav-bar a{
+    width: 20%;
+    margin: 0;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+.nav-bar a:hover{
+    color: whitesmoke;
+    background-color: #575757;
+    border-radius: 4px;
+}
+.container img{
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+.logo-tittle img{
+    position:absolute;
+    max-width: 400px;
+    top: 300px; 
+    left: 70%;
+    z-index: 10;
+}
+.main-section div{
+     display: inline-block;
+     text-align: center;
+     padding: 0 100px 100px 100px;
+}
+.nexlens-tittle{
+    font: sans-serif;
+    font-size: 120px;
+    color: #29285E;
+    text-align: center;
+    font-weight: 1200;
+}
+.nexlens-subtittle{
+    font: sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: -100px;
+}
+.version-text{
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+}
+.release-date{
+    font-size: 28px;
+    text-align: center;
+    margin-top: -100px;
+}
+.intro{
+    display: inline-block;
+    width: 50%;
+}
+.image-section{
+    display: inline-block;
+}
+.image-section img{
+    height: 700px;
+    width: auto;
+}
+.version {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Pre-orden-button{
+    background-color: #001f54;
+    color:white;
+    padding: 10px 20px;
+    border:none;
+    cursor:pointer;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.Features-section{
+    background-color:#87CFDE;
+    display:inline-flex;
+}
+.Features-section div{
+     text-align: center;
+     padding: 0 100px 100px 100px;
+     width: 40%;
+     padding: 100px;
+}
+.features-tittle{
+    font-size: 40px;
+    text-align: left;
+}
+.features-description{
+    text-align: left;
+}
+.Features-section div img{
+    height: 150px;
+    width: auto;
+}
+.difference{
+    background-color: #29285E;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.difference h2{
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+.difference P{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.product-images img{
+    height: 250px;
+    width: auto;
+    margin: 10px;
+}
+.map-options img{
+    width: 70vw;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    margin-left: 250px;
+    
+}
+.ordenar-btn, .country-btn{
+    background-color: #92cef7;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+footer{
+    color: #92cef7;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.footer-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 10px;
+}
+.footer-divider {
+    height: 80px;
+    width: 1px;
+    background-color: #000;
+    margin: 0 40px;
+   }
+.contact button{
+    background-color: #92cef7;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 40px;
+}
+.socialmedia p{
+    font-size: 100px;
+    color: black;
+}
+.socialmedia img{
+    height: 100px;
+    width: auto;
+    margin: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.socialmedia p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
